@@ -64,6 +64,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CustomViewCellRenderder.cs" />
     <Compile Include="DatabaseService.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />

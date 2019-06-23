@@ -7,9 +7,37 @@
              x:Class="Week_04.Views.AddPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <StackLayout>
+                <Image x:Name="MovieImage" Source="Images/MovieButton.png" Margin="2,0">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="SelectImageClicked"/>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Image x:Name="SeriesImage" Source="Images/SeriesButton.jpg" Margin="2,0" Opacity="0.5">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="SelectImageClicked"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+            <ScrollView>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Title"/>
+                    <Entry x:Name="Title"/>
+                    <Label Text="Description"/>
+                    <Entry x:Name="Description"/>
+                    <Label Text="year"/>
+                    <Entry x:Name="Year" Keyboard="Numeric"/>
+                    <StackLayout IsVisible="False" x:Name="HideSeries">
+                        <Label Text="Year ended"/>
+                        <Entry x:Name="YearEnded" Keyboard="Numeric"/>
+                        <Label Text="Number of episodes"/>
+                        <Entry x:Name="NumberOfEpisodes" Keyboard="Numeric"/>
+                        <Label Text="Number of seasons"/>
+                        <Entry x:Name="NumberOfSeasons" Keyboard="Numeric"/>
+                    </StackLayout>
+                    <Button x:Name="AddButton" Text="Add" HorizontalOptions="Center" Padding="2" Margin="0,16,0,0" WidthRequest="96" HeightRequest="32" Clicked="AddClicked"/>
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -16,5 +16,10 @@ namespace Week_04.Views
         {
             InitializeComponent();
         }
+
+        private void SelectImageClicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

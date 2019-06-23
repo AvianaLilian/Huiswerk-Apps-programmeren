@@ -44,7 +44,7 @@ namespace Week_04
             Connection.Insert(new Movie { Title = title, Description = description, Year = year });
         }
 
-        public void AddSerie(string title, string description, int yearStarted, int yearEnded, int numberOfEpisodes, int numberOfSeasons)
+        public void AddSeries(string title, string description, int yearStarted, int yearEnded, int numberOfEpisodes, int numberOfSeasons)
         {
             Connection.Insert(new Series { Title = title, Description = description, YearStarted = yearStarted, YearEnded = yearEnded, numberOfEpisodes = numberOfEpisodes, NumberOfSeasons = numberOfSeasons });
         }
