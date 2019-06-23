@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Week_04.Views.RegisterPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Margin="32">
+            <Label Text="New username:"/>
+            <Entry x:Name="Username" Placeholder="Enter a username"/>
+            <Label Text="New password:"/>
+            <Entry x:Name="Password" Placeholder="Enter a password" IsPassword="True"/>
+            <Label Text="Repeat password:"/>
+            <Entry x:Name="RepeatPassword" Placeholder="Reapeat entered password" IsPassword="true"/>
+            <Button x:Name="RegisterButton" Text="Create account" Clicked="RegisterClicked" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

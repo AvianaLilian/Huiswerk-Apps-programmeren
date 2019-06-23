@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Week_04.Views.LoginPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Margin="32">
+            <Label Text="Username:"/>
+            <Entry x:Name="Username" Placeholder="Enter your username"/>
+            <Label Text="Password:"/>
+            <Entry x:Name="Password" Placeholder="Enter your password" IsPassword="True"/>
+            <Button x:Name="LoginButton" Text="Login" Clicked="LoginClicked" HorizontalOptions="Center"/>
+            <Label x:Name="NoAccountLabel" Text="If you don't have an account yet, register here." HorizontalOptions="Center" TextColor="Indigo">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="RegisterClicked"/>
+                </Label.GestureRecognizers>
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
