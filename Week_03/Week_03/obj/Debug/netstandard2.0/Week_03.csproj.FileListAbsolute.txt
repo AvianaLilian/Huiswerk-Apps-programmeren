@@ -1,0 +1,14 @@
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_03\Week_03\bin\Debug\netstandard2.0\Week_03.deps.json
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_03\Week_03\bin\Debug\netstandard2.0\Week_03.dll
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_03\Week_03\bin\Debug\netstandard2.0\ref\Week_03.dll
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_03\Week_03\bin\Debug\netstandard2.0\Week_03.pdb
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_03\Week_03\obj\Debug\netstandard2.0\Week_03.csprojAssemblyReference.cache
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_03\Week_03\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_03\Week_03\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_03\Week_03\obj\Debug\netstandard2.0\Week_03.csproj.CoreCompileInputs.cache
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_03\Week_03\obj\Debug\netstandard2.0\Week_03.AssemblyInfoInputs.cache
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_03\Week_03\obj\Debug\netstandard2.0\Week_03.AssemblyInfo.cs
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_03\Week_03\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_03\Week_03\obj\Debug\netstandard2.0\Week_03.dll
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_03\Week_03\obj\Debug\netstandard2.0\ref\Week_03.dll
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_03\Week_03\obj\Debug\netstandard2.0\Week_03.pdb
