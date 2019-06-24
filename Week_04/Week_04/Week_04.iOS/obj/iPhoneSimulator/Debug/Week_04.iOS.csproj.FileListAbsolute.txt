@@ -1,0 +1,8 @@
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_04\Week_04\Week_04.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_04\Week_04\Week_04.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_04\Week_04\Week_04.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_04\Week_04\Week_04.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_04\Week_04\Week_04.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_04\Week_04\Week_04.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_04\Week_04\Week_04.iOS\obj\iPhoneSimulator\Debug\Week_04.iOS.csprojAssemblyReference.cache
+C:\Users\amhen\Documents\GitHub\Huiswerk-Apps-programmeren\Week_04\Week_04\Week_04.iOS\obj\iPhoneSimulator\Debug\Week_04.iOS.csproj.CoreCompileInputs.cache

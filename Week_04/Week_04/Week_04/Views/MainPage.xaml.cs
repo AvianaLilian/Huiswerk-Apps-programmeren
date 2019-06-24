@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,7 +7,7 @@ using Xamarin.Forms;
 
 namespace Week_04.Views
 {
-       public partial class MainPage : ContentPage
+    public partial class MainPage : ContentPage
     {
         DatabaseManager databaseManager = new DatabaseManager();
         public MainPage()

@@ -11,7 +11,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using SQLite;
-using Week_04.Driud;
+using Week_04.Droid;
 using Environment = System.Environment;
 
 [assembly: Xamarin.Forms.Dependency(typeof(DatabaseService))]
@@ -22,7 +22,7 @@ namespace Week_04.Droid
         public SQLiteConnection CreateConnection()
         {
 
-            var sqliteFilename = "MovieDatabase.db";
+            var sqliteFilename = "MovieDB.db";
             string documentsDirectoryPath = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
             var path = Path.Combine(documentsDirectoryPath, sqliteFilename);
 

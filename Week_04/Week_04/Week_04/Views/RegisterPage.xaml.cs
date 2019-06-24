@@ -18,7 +18,7 @@ namespace Week_04.Views
             InitializeComponent();
         }
 
-        private void RegisterClicked(object sender, EventArgs e)
+        private void Create_Clicked(object sender, EventArgs e)
         {
             if (databaseManager.DoesUserExist(Username.Text, Password.Text))
                 DisplayAlert("Allready exist", "Please login or create a new account", "OK");

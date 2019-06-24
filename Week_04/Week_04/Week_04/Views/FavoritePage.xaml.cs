@@ -12,9 +12,13 @@ namespace Week_04.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class FavoritePage : ContentPage
     {
+        DatabaseManager databaseManager = new DatabaseManager();
         public FavoritePage()
         {
             InitializeComponent();
+            string currentUser = databaseManager.GetUser().Username;
+            MovieList.ItemsSource = databaseManager.GetAllMoviesByUser(currentUser);
+            SeriesList.ItemsSource = databaseManager.GetAllSeriesByUser(currentUser);
         }
     }
 }

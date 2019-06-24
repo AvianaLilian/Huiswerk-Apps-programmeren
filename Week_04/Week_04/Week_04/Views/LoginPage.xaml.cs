@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Week_04.MenuItems;
 
 namespace Week_04.Views
 {
@@ -13,13 +13,17 @@ namespace Week_04.Views
     public partial class LoginPage : ContentPage
     {
         DatabaseManager databaseManager = new DatabaseManager();
-
         public LoginPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+            NoAccountLabel.GestureRecognizers.Add(new TapGestureRecognizer
+            {
+                Command = new Command(() => OnLabelClicked()),
+            });
         }
 
-        private void LoginClicked(object sender, EventArgs e)
+        private void Login_Clicked(object sender, EventArgs e)
         {
             if (!String.IsNullOrEmpty(Username.Text) && !String.IsNullOrEmpty(Password.Text))
             {
@@ -35,7 +39,7 @@ namespace Week_04.Views
                 DisplayAlert("Empty field", "Username & password cannot be empty!", "OK");
         }
 
-        private void RegisterClicked(object sender, EventArgs args)
+        private void OnLabelClicked()
         {
             Application.Current.MainPage = new RegisterPage();
         }

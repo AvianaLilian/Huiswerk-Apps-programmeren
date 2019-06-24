@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Week_04.MenuItems;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
